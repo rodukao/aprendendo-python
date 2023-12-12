@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Prompt:wght@300&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 100px 1fr;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #eee;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    overflow: hidden;
+}
+
+.left-side-bar{
+    border-right: 1px solid #eee;
+}
+
+.container{
+    overflow-y: scroll;
+    padding: 20px 50px 150px;
+}
+
+.container h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.container h2{
+    color: #333;
+}
+
+.container h3{
+    color: #333;
+}
+
+.container p{
+    font-size: .95em;
+    line-height: 2em;
+    color: #444;
+    max-width: 600px;
+}
+
+.container p img{
+    padding: 20px 0;
+    max-width: 600px;
+}
+
+ol p{
+    margin: 0;
+}
+
+.prompt-code{
+    background-color: black;
+    color: #eee;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: .05em;
+    font-size: .75em;
+    padding: 0px 4px;
+}
